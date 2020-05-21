@@ -15,7 +15,7 @@
         <!--使用spring boot的依赖-->
         <module>demo-juc</module>
         <!--面向切面编程的例子-->
-        <module>demo-aop</module>
+<!--        <module>demo-aop</module>-->
         <!--用于存放对象的bean-->
         <module>demo-model</module>
         <!--基于spring cloud的一些demo-->
@@ -25,7 +25,7 @@
         <!--实现多种动态代理，JDK和CGlib-->
         <module>demo-proxy</module>
         <!--基于zookeeper的分布式锁-->
-        <module>demo-zklock</module>
+<!--        <module>demo-zklock</module>-->
         <!--Java原生nio和netty的例子-->
         <module>demo-nio</module>
         <!--Java的基础编程-->
@@ -40,7 +40,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.4.1</version>
+                <version>2.4.2</version>
                 <configuration>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
